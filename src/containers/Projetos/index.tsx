@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import Project from '../../components/Project'
 import Title from '../../components/Title'
 
@@ -7,6 +8,18 @@ const Projetos = () => (
   <section>
     <Title fontSize={16}>Projetos</Title>
     <Lista>
+      <li>
+        <Project></Project>
+      </li>
+      <li>
+        <Project></Project>
+      </li>
+      <li>
+        <Project></Project>
+      </li>
+      <li>
+        <Project></Project>
+      </li>
       <li>
         <Project></Project>
       </li>
